@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Cajun Music Quiz</title>
+	<link rel="icon" type="image/png" href="images/accordion.png" />
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower|Cabin:400,500italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+	
+<!--first page for quiz/title page-->
+
+	
+	<div id="cover">
+	<div id="large-image">
+	</div>
+		<section id="first-page-contents">
+			<div id="title-container">
+				<h2 class="title">Quiz</h2>
+				<h5 class="title">de l<span class="title" style="color: white">a</span></h5>
+				<h1 class="title" id="h1-1">Musique</h1>
+				<h1 class="title" id="h1-2">C<span class="title" style="color: white">a</span>dienne</h1>
+				<p>"What you know 'bout Cajun Music?"</p>
+				<div class="btn-container">
+					<input id="begin-btn" class="btn" type="button" value="Begin Quiz"/>
+				</div>
+		</section>
+	
+	<!--question-->
+
+		<section id="question-container">
+			<h1 class="title">Title #1</h1>
+			<ul id="feedback-circles-questions">
+				<li class="question-circles" id="indicator-1"></li>
+				<li class="question-circles" id="indicator-2"></li>
+				<li class="question-circles" id="indicator-3"></li>
+				<li class="question-circles" id="indicator-4"></li>
+				<li class="question-circles" id="indicator-5"></li>
+			</ul>
+		</section>
+	</div>
+		
+
+<!--Answer 1-->
+	<div id="answer-page-wrapper">
+		<div id="correct-answer-page">
+			<ul id="feedback-circles-answers">
+				<li class="answer-circles" id="indicator-1"></li>
+				<li class="answer-circles" id="indicator-2"></li>
+				<li class="answer-circles" id="indicator-3"></li>
+				<li class="answer-circles" id="indicator-4"></li>
+				<li class="answer-circles" id="indicator-5"></li>
+			</ul>
+		</div>
+
+		<div id="wrong-answer-page">
+
+
+
+
+			<ul class="feedback-circles-answers">
+				<li class=" question-circles answer-circles active" id="indicator-1"></li>
+				<li class="question-circles answer-circles" id="indicator-2"></li>
+				<li class="question-circles answer-circles" id="indicator-3"></li>
+				<li class="question-circles answer-circles" id="indicator-4"></li>
+				<li class="question-circles answer-circles" id="indicator-5"></li>
+			</ul>
+		</div>
+	</div>
+
+<!--results page-->
+
+	<div id="results-page">
+
+		
+		<section id="failed" class="feedback-header">
+			<h1>"Oo ye yi!"</h1>
+			<h2>You best brush up on your Cajun Music facts.</h2>
+			<br/>
+			<div class="results"></div>
+			<div class="btn-container">
+				<input type="button" class="btn retry-btn" id="retry-btn" value="Retake Quiz"/>
+			</div>
+		</section>
+
+		<section id="passed" class="feedback-header">
+			<h1>"Ayeee!"</h1> 
+			<h2>Awww yea you sure do know your Cajun Music.</h2>
+			<br/>
+			<div class="results"></div>
+			<div class="btn-container">
+				<input type="button" class="retry-btn" value="Retake Quiz"/>
+			</div>
+		</section>
+	</div>
+
+
+	<audio id="audio-1" src="sound/amede.mp3">
+	<audio id="audio-3" src="sound/happy.mp3">
+	<audio id="audio-4" src="sound/Blind.mp3">
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
