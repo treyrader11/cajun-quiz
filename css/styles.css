@@ -1,0 +1,254 @@
+.font-change {
+  color: green;
+  text-decoration: line-through;
+}
+body {
+  background: black;
+}
+body #cover {
+  max-width: 960px;
+  margin: 8px auto;
+  text-align: center;
+  height: 95vh;
+  font-family: 'Indie Flower', cursive;
+  color: #e60000;
+  border: solid 3px black;
+}
+body #cover #large-image {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  height: 95vh;
+  background-image: url("http://www.louisianafolklife.org/LT/Virtual_Books/Guide_to_State/images/fg_16_7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Indie Flower', cursive;
+  color: #e60000;
+  margin-bottom: -45rem;
+  position: relative;
+  z-index: 1;
+}
+body #cover #first-page-contents {
+  width: 31.25rem;
+  height: 31.25rem;
+  margin: 2.75rem auto 0 auto;
+  z-index: 5;
+  position: relative;
+  /*helps position it according to image size*/
+
+}
+body #cover #first-page-contents #title-container {
+  font-weight: 600;
+}
+body #cover #first-page-contents #title-container .title:hover {
+  color: green;
+}
+body #cover #first-page-contents #title-container h2 {
+  font-size: 5em;
+  margin-top: -0.3125rem;
+}
+body #cover #first-page-contents #title-container #h1-1 {
+  font-size: 7em;
+  margin-top: -8.8125rem;
+}
+body #cover #first-page-contents #title-container #h1-2 {
+  margin-top: -10.4375rem;
+  font-size: 7em;
+}
+body #cover #first-page-contents #title-container h3 {
+  font-size: 4em;
+}
+body #cover #first-page-contents #title-container h5 {
+  font-size: 3em;
+  margin-top: -5.4375rem;
+}
+body #cover #first-page-contents #title-container p {
+  font-size: 1.25rem;
+  color: green;
+  margin-top: -4.6875rem;
+}
+body #cover #first-page-contents #title-container #begin-btn {
+  padding: 8px 20px 8px 20px;
+  font-family: 'Cabin', sans-serif;
+  border-radius: 7%;
+  background: floralwhite;
+  color: green;
+  font-size: 1.25rem;
+}
+body #cover #first-page-contents #title-container #begin-btn:hover {
+  color: #e60000;
+  margin-top: 1px;
+}
+body #cover #first-page-contents #title-container .btn {
+  color: green;
+  border-radius: 5%;
+  font-size: 1.25rem;
+  background: rgba(17, 17, 17, 0);
+  padding: 0.5rem;
+}
+body #cover #first-page-contents #title-container .btn:hover {
+  cursor: pointer;
+}
+body #cover #question-container {
+  width: 30.625rem;
+  height: 95vh;
+  margin: 0 auto;
+  font-size: 1.3125rem;
+  display: none;
+  position: relative;
+  z-index: 5;
+}
+body #cover #question-container .title:hover {
+  color: green;
+}
+body #cover #question-container .question {
+  font-size: 1.875rem;
+  line-height: 1.875rem;
+  color: white;
+  margin-top: .375rem;
+}
+body #cover #question-container .option-container {
+  display: inline-block;
+  margin-top: 1.625rem;
+  line-height: 2.4375rem;
+}
+body #cover #question-container .option-container .option-input {
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+body #cover #question-container .option-container .option:hover {
+  font-size: 1.25rem;
+  cursor: pointer;
+}
+body #cover #question-container .btn-container .btn {
+  color: green;
+  border-radius: 5%;
+  font-size: 1.25rem;
+  background: rgba(17, 17, 17, 0);
+  padding: 0.5rem;
+}
+body #cover #question-container .btn-container .btn:hover {
+  color: #e60000;
+  margin-top: 1px;
+  cursor: pointer;
+}
+body #cover #question-container #feedback-circles-question {
+  margin-top: 17.0625rem;
+  margin-right: 1.3125rem;
+}
+body #cover #question-container .question-circles {
+  width: 1.375rem;
+  height: 1.375rem;
+  margin-top: 8px;
+  margin-right: 10px;
+  background-color: transparent;
+  display: inline-block;
+  border-radius: 50px;
+  border: solid 1px white;
+}
+body #answer-page-wrapper {
+  display: none;
+}
+body #answer-page-wrapper #correct-answer-page {
+  max-width: 960px;
+  margin: 8px auto;
+  text-align: center;
+  height: 95vh;
+  font-family: 'Indie Flower', cursive;
+  color: #e60000;
+  display: none;
+}
+body #answer-page-wrapper #correct-answer-page #correct-answer {
+  max-width: 60rem;
+  text-align: center;
+}
+body #answer-page-wrapper #correct-answer-page #correct-answer .answer-image {
+  margin-top: 7%;
+  border-radius: 30%;
+  margin-left: .375rem;
+}
+body #answer-page-wrapper #correct-answer-page #feedback-circles-answers {
+  margin-top: 11.875rem;
+  margin-right: 1.3125rem;
+}
+body #answer-page-wrapper #correct-answer-page #feedback-circles-answers .answer-circles {
+  width: 1.375rem;
+  height: 1.375rem;
+  margin-top: 8px;
+  margin-right: 10px;
+  background-color: transparent;
+  display: inline-block;
+  border-radius: 50px;
+  border: solid 1px black;
+}
+body #answer-page-wrapper #wrong-answer-page {
+  max-width: 60rem;
+  margin: .5rem auto;
+  text-align: center;
+  height: 95vh;
+  font-family: 'Indie Flower', cursive;
+  color: #e60000;
+  display: none;
+}
+body #answer-page-wrapper #wrong-answer-page #wrong-answer {
+  max-width: 60rem;
+  text-align: center;
+}
+body #answer-page-wrapper #wrong-answer-page #wrong-answer .answer-image {
+  margin-top: 7%;
+  border-radius: 30%;
+  margin-left: .375rem;
+}
+body #results-page {
+  max-width: 960px;
+  margin: 8px auto;
+  text-align: center;
+  height: 95vh;
+  border: solid 3px black;
+  font-family: 'Indie Flower', cursive;
+  color: #e60000;
+  border-radius: 10%;
+  display: none;
+}
+body #results-page #passed,
+body #results-page #failed {
+  height: 70vh;
+  width: 80vh;
+  margin: auto auto;
+  display: none;
+}
+body #results-page #passed h1,
+body #results-page #failed h1 {
+  font-size: 2.8125rem;
+}
+body #results-page #passed h2,
+body #results-page #failed h2 {
+  font-size: 1.875rem;
+}
+body #results-page #passed .retry-btn,
+body #results-page #failed .retry-btn {
+  padding: 8px 20px 8px 20px;
+  font-family: 'Cabin', sans-serif;
+  border-radius: 7%;
+  background: floralwhite;
+  color: green;
+  font-size: 1.25rem;
+}
+body #results-page #passed .retry-btn:hover,
+body #results-page #failed .retry-btn:hover {
+  color: #e60000;
+  margin-top: 1px;
+  cursor: pointer;
+}
+@media screen and (max-height: 700px) {
+  #question-container {
+    margin-top: 7.875rem;
+  }
+  #first-page-contents {
+    margin-top: 7rem;
+  }
+}
